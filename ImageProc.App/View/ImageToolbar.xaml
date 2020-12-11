@@ -50,7 +50,7 @@
 
         <Button Style="{DynamicResource IconButtonStyle}" Grid.Column="1" Command="{Binding OriginalImageCmd}">
             <TextBlock 
-                Text="&#xe656;" 
+                Text="&#xe693;" 
                 VerticalAlignment="Center"
                 FontFamily="/Font/#iconfont"
                 Margin="10 0 10 0"
