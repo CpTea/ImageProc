@@ -1,0 +1,31 @@
+Image Proc
+Copyright 2020 CpTea
+This product includes software developed at
+CpTea (https://github.com/CpTea).
+
+
+This project bundles the following NOTICE files from third party library providers:
+
+META-INF/NOTICE in archive OpenCV-4.5.0
+OpenCV: Open Source Computer Vision Library
+Copyright (C) 2000-2020, Intel Corporation, all rights reserved.
+Copyright (C) 2009-2011, Willow Garage Inc., all rights reserved.
+Copyright (C) 2009-2016, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2010-2013, Advanced Micro Devices, Inc., all rights reserved.
+Copyright (C) 2015-2020, OpenCV Foundation, all rights reserved.
+Copyright (C) 2008-2016, Itseez Inc., all rights reserved.
+Copyright (C) 2019-2020, Xperience AI, all rights reserved.
+Copyright (C) 2019-2020, Shenzhen Institute of Artificial Intelligence and
+                         Robotics for Society, all rights reserved.
+This product includes software developed at
+OpenCV team (https://opencv.org/).
+
+META-INF/NOTICE in archive LiveCharts.0.9.7
+Copyright (c) 2016 Alberto Rodriguez & LiveCharts contributors
+This product includes software developed at
+Alberto Rodriguez & LiveCharts contributors (https://lvcharts.net/).
+
+META-INF/NOTICE in archive LiveCharts.Wpf.0.9.7
+Copyright (c) 2016 Alberto Rodriguez & LiveCharts contributors
+This product includes software developed at
+Alberto Rodriguez & LiveCharts contributors (https://lvcharts.net/).

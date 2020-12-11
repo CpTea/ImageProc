@@ -1,0 +1,15 @@
+﻿<Application x:Class="ImageProc.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:locator="clr-namespace:ImageProc.App.Locator"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <locator:Locator x:Key="Locator"/>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ImageProc.App;component/Style/IconTextButtonStyle.xaml"/>
+                <ResourceDictionary Source="/ImageProc.App;component/Style/IconButtonStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
