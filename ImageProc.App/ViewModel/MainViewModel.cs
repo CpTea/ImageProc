@@ -174,7 +174,7 @@ namespace ImageProc.App.ViewModel
         private void ExecuteOriginalImageCmd()
         {
             ImgMdl.ImageMode = Core.ImreadModes.Color;
-            ImgMdl.Interface.SetImage(ImgMdl.FileName, ImgMdl.ImageMode);
+            ImgMdl.FileName = ImgMdl.FileName;
             HistMdl.HistMode = ImgMdl.ImageMode;
         }
 
