@@ -25,18 +25,18 @@
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
 
-            <!--<TextBlock Grid.Row="0" Grid.Column="0"
-                  Text="{Binding HistInfo.MeanGrayscaleValueString}"
+            <TextBlock Grid.Row="0" Grid.Column="0"
+                  Text="{Binding HistMdl.MeanGrayscaleValueString}"
                   FontSize="12"
                   Foreground="#959595" 
                   HorizontalAlignment="Left"
                   Margin="10 0 10 0"/>
             <TextBlock Grid.Row="1" Grid.Column="0"
-                Text="{Binding HistInfo.StdGrayscaleValueString}"
+                Text="{Binding HistMdl.StdGrayscaleValueString}"
                 FontSize="12"
                 Foreground="#959595" 
                 HorizontalAlignment="Left"
-                Margin="10 0 10 0"/>-->
+                Margin="10 0 10 0"/>
         </Grid>
 
         <Button Style="{DynamicResource IconButtonStyle}" Grid.Column="1" Command="{Binding ShowColorHistCmd}">

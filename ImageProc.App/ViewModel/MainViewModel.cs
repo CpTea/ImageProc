@@ -126,7 +126,9 @@ namespace ImageProc.App.ViewModel
 
         private void ExecuteEqualizeHistogramCmd()
         {
-            
+            Toolbar = new ImageToolbar();
+            Workspace = new ImageWorkspace();
+            ImgMdl.Interface.EqualizeHistogram(ImgMdl.ImageMode);
         }
 
         private void ExecuteCalcHistogramCmd()

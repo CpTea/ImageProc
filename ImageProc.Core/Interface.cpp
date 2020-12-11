@@ -103,6 +103,13 @@ List<array<double>^>^ ImageProc::Core::Interface::CalcHistogram(ImreadModes mode
     return histList;
 }
 
+void ImageProc::Core::Interface::EqualizeHistogram(ImreadModes mode)
+{
+    cv::Mat image = GetCvImage(*m_pImage, mode);
+    delete m_pImage;
+    m_pImage = new cv::Mat(Histogram::Histogram::EqualizeHistogram(image));
+}
+
 int ImageProc::Core::Interface::GetImageWidth()
 {
     return m_pImage->cols;
