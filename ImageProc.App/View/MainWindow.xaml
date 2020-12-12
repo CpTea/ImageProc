@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ImageProc.App.View"
         mc:Ignorable="d"
-        Title="Image Processing Application" Height="800" Width="1200"
+        Title="Image Proc" Height="800" Width="1200"
         WindowStartupLocation="CenterScreen"
         DataContext="{Binding Path=MainViewModel, Source={StaticResource Locator}}">
 

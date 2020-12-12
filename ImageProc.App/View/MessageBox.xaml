@@ -14,9 +14,9 @@
               Text="[]~(￣▽￣)~*" 
               HorizontalAlignment="Center" 
               VerticalAlignment="Center"
-              FontSize="18"
+              FontSize="15"
               Focusable="False"
-              Foreground="#8CEDCB">
+              Foreground="#959595">
             </TextBlock>
             <TextBlock
               Text="图片保存成功" 
