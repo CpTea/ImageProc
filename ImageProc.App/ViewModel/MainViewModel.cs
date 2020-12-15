@@ -18,6 +18,7 @@ namespace ImageProc.App.ViewModel
                 new Model.IconTextButtonMdl {Icon = "\xe63c", Text = "图像", ID = 2},
                 new Model.IconTextButtonMdl {Icon = "\xe6f5", Text = "直方图", ID = 3},
                 new Model.IconTextButtonMdl {Icon = "\xe65b", Text = "均衡化", ID = 4},
+                new Model.IconTextButtonMdl {Icon = "\xe65b", Text = "排序滤波", ID = 5},
             };
             
             ImgMdl = new Model.ImageMdl();
@@ -103,8 +104,14 @@ namespace ImageProc.App.ViewModel
                 case 2: ExecuteShowImageCmd(); break;
                 case 3: ExecuteCalcHistogramCmd(); break;
                 case 4: ExecuteEqualizeHistogramCmd(); break;
+                case 5: ExecuteSortFilterCmd(); break;
                 default: break;
             }
+        }
+
+        private void ExecuteSortFilterCmd()
+        {
+            if (ImgMdl.FileName is null) return;
         }
 
         private void ExecuteOpenImageCmd()
@@ -126,6 +133,7 @@ namespace ImageProc.App.ViewModel
 
         private void ExecuteEqualizeHistogramCmd()
         {
+            if (ImgMdl.FileName is null) return;
             Toolbar = new ImageToolbar();
             Workspace = new ImageWorkspace();
             ImgMdl.Interface.EqualizeHistogram(ImgMdl.ImageMode);

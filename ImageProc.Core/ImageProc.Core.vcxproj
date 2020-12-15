@@ -68,11 +68,11 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\Cpp\configs\opencv-4.5.0d_x64" />
+    <Import Project="..\..\..\Cpp\VsPropertyConfig\opencv-4.5.0-x64-debug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\Cpp\configs\opencv-4.5.0_x64" />
+    <Import Project="..\..\..\Cpp\VsPropertyConfig\opencv-4.5.0-x64-release.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
@@ -113,10 +113,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Filter.cpp" />
     <ClCompile Include="Histogram.cpp" />
     <ClCompile Include="Interface.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Filter.h" />
     <ClInclude Include="Histogram.h" />
     <ClInclude Include="Interface.h" />
   </ItemGroup>
